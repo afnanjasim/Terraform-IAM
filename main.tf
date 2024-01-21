@@ -9,11 +9,11 @@
 
 # QA USER CREATION
 
-# module "iam_qa_user" {
-#   source = "./modules/IAMUsers"
-#   qauser = "1"
-#   name    = "testuser"
-# }
+module "iam_qa_user" {
+  source = "./modules/IAMUsers"
+  qauser = "1"
+  name    = "testuser"
+}
 
 # TryOuts below
 
